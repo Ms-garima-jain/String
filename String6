@@ -1,0 +1,16 @@
+let str="hello"
+ let i =0;
+   let reverse ="";
+    while (str[i]!==undefined)
+    {
+         reverse=str[i]+reverse;
+          i++;
+    }
+     if (str==reverse)
+     {
+         console.log (`${str} is a pallindrome`)
+     }
+     else
+     {
+         console.log (`${str} is not a pallinfrome`)
+     }
