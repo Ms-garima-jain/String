@@ -1,0 +1,9 @@
+
+let str = "hello";
+let length =0;
+
+while (str[length]!=undefined)
+{
+    length++
+}
+ console.log ("Length", length)
