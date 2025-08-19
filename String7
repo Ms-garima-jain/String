@@ -1,0 +1,14 @@
+let str="javascript"
+ let target="a";
+ let index=-1;
+ let i =0;
+  while ( str[i]!=undefined)
+  {
+     if (str[i]==target)
+     {
+        index=i;
+        break;
+     }
+     i++;
+  }
+   console.log ( ` first occurence of ${target} is ${index} `)
